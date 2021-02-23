@@ -1,27 +1,20 @@
 {
-  "name": "fetching_with_react",
+  "name": "gif-search",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "react-scripts": "^2.0.5"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.7.1",
+    "axios": "^0.21.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.2",
-    "web-vitals": "^1.1.0"
+    "react-dom": "^17.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
